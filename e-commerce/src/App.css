@@ -49,3 +49,17 @@ a {
   background-color: var(--primaryColor);
 }
 
+/* Finish Header Part */
+
+/* Footer Part */
+
+footer {
+  background-color: var(--primaryColor);
+}
+
+footer:not(:first-child){
+  border-top: 1px solid var(--accentColor);
+
+}
+
+/* Finish Footer Part */
