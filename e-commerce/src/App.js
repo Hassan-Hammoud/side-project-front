@@ -4,19 +4,25 @@ import './App.css';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
+// import Sidebar from './components/Sidebar/Sidebar';
+// import Product from './pages/Product/Product';
 
 function App() {
   return (
-   <>
-   <BrowserRouter>
-    <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />}/>
-          <Route path='contact' element={<Contact />}/>
-        </Route>
-    </Routes>
-   </BrowserRouter>
-   </>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+
+          
+           
+          
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
